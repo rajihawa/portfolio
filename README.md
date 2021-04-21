@@ -1,29 +1,8 @@
-# portfolio
+# Raji Hawa Portfolio website
 
-## Project setup
-```
-yarn install
-```
+## Info about the website
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Created with vue 3 (composition API).
+- Used typescript + vue router + vuex.
+- Animations are made with vue transition component with some pure CSS.
+- Feel free to fork the repo for your own portfolio.
