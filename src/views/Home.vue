@@ -103,11 +103,12 @@ export default defineComponent({
     const aboutRef = ref<HTMLDivElement | null>(null);
 
     const scrollingListener = () => {
-      const newValue = (window.scrollY / window.screen.height) * 5;
-      if (newValue < 4.4) {
+      const newValue = window.scrollY / window.screen.height;
+      console.log(newValue);
+      if (newValue < 0.89) {
         home.value = true;
         about.value = false;
-        scale.value = newValue;
+        scale.value = newValue * 5;
       } else {
         home.value = false;
         setTimeout(() => {
