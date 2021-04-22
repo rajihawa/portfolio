@@ -1,11 +1,19 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import Home from "../views/Home.vue";
+import Languages from "../views/Languages.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
     name: "Home",
     component: Home,
+    meta: { transition: "fade" },
+  },
+  {
+    path: "/languages",
+    name: "Languages",
+    component: Languages,
+    meta: { transition: "fade" },
   },
   {
     path: "/about",
