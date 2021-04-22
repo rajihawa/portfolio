@@ -8,7 +8,7 @@
         class="absolute overflow-hidden text-center w-full h-full flex justify-center items-center bg-purple-600 z-10"
       >
         <div
-          class="bg-purple-800 rounded-full w-64 h-64 sm:w-96 sm:h-96"
+          class="bg-purple-800 rounded-full w-64 h-64 sm:w-96 sm:h-96 xl:w-104 xl:h-104"
           :style="{
             transform: 'scale(' + scale + ')',
           }"
