@@ -80,7 +80,7 @@
         />
         <div class="relative flex flex-col text-center z-30">
           <div class="text-white text-2xl sm:text-5xl text-center mb-7">
-            What do you want to know...
+            What do you want to know ?
           </div>
           <div class="flex flex-wrap justify-center items-center">
             <transition-group name="list-complete">

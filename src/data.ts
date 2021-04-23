@@ -2,11 +2,11 @@ export default {
   home: {
     name: "Raji Hawa",
     links: [
-      { to: "/about", name: "About me ?", icon: "about_me" },
-      { to: "/skills", name: "My skills ?", icon: "skills" },
-      { to: "/projects", name: "My projects ?", icon: "projects" },
-      { to: "/contact", name: "Contanct me ?", icon: "contact" },
-      { to: "/tips", name: "Coding tips ?", icon: "tips" },
+      { to: "/about", name: "About me", icon: "about_me" },
+      { to: "/skills", name: "My skills", icon: "skills" },
+      { to: "/projects", name: "My projects", icon: "projects" },
+      { to: "/contact", name: "Contact me", icon: "contact" },
+      { to: "/tips", name: "Coding tips", icon: "tips" },
     ],
     about: [
       "I started learning to be a full-stack develoepr ever since 10th grade",
