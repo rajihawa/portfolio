@@ -1,23 +1,16 @@
 <template>
-  <div
-    class="absolute top-0 flex sm:flex-col sm:left-0 sm:h-screen w-screen sm:w-auto justify-around items-center"
-  >
-    <router-link to="/"><LinkButton>Home</LinkButton></router-link>
-    <router-link to="/languages"
-      ><LinkButton>Languages</LinkButton></router-link
-    >
-    <router-link to="/about"><LinkButton>About</LinkButton></router-link>
-  </div>
-  <router-view />
+  <router-view v-slot="{ Component, route }">
+    <!-- Use any custom transition and fallback to `fade` -->
+    <transition :name="route.meta.transition || 'fade'">
+      <component :is="Component" />
+    </transition>
+  </router-view>
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
-import LinkButton from "@/components/LinkButton.vue";
 
 export default defineComponent({
-  components: {
-    LinkButton,
-  },
+  components: {},
   setup() {
     return {};
   },
@@ -28,6 +21,10 @@ export default defineComponent({
 body {
   padding: 0;
   margin: 0;
+}
+
+::selection {
+  background: #8a2be2;
 }
 #app {
   overflow-x: hidden;
