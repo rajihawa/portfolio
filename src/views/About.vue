@@ -1,8 +1,7 @@
 <template>
-  <div class="h-screen w-screen  bg-primary text-white sm:p-5 flex justify-center items-center">
+<Main>
+  <div class=" text-white sm:p-5 flex justify-center items-center">
     <div class="container p-5 bg-secondary-dark rounded-md bg-opacity-30" >
-      <router-link to="/" tag="a" class="
-      border-b-2">back home</router-link>
       <h1 class=" sm:text-3xl mt-5 mb-3">Who am I ?</h1>
       <p class="mb-1">Hey, I'm Raji Hawa :)</p>
       <p>
@@ -33,13 +32,18 @@
       </p>
     </div>
   </div>
+  </Main>
 </template>
 
 
 <script lang="ts">
 import { defineComponent, onMounted, ref } from 'vue'
+import Main from "../layouts/Main.vue";
 
 export default defineComponent({
+  components: {
+    Main
+  },
   setup() {
     const mil = ref(0)
 

@@ -33,6 +33,8 @@ body {
 
 .fade-enter-active,
 .fade-leave-active {
+  position: absolute;
+  width: 100%;
   transition: opacity 0.5s ease;
 }
 

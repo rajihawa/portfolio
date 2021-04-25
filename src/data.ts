@@ -44,6 +44,38 @@ export default {
     others: ["Docker", "Kubernetes", "DroneCI", "TDD", "Clean Architecture"],
     "bucket list": ["Ruby", "Crystal", "Erlang", "V"],
   },
+  projects: [
+    {
+      title: "My first project",
+      name: "EDR 05",
+      link: "https://0546299985.com",
+      img: "edr05",
+      desc:
+        "Employees hours management tool includes website + API for the EDR Software + mobile application.",
+    },
+    {
+      title: "My best design",
+      name: "EDR Soft",
+      link: "https://edrsoft.com",
+      img: "edrsoft",
+      desc: "The main website for EDR Software.",
+    },
+    {
+      title: "Most complicated",
+      name: "Altooro",
+      link: "https://altooro.com/",
+      img: "altooro",
+      desc: "Fastest online coding platform supports 10 programming languages.",
+    },
+    {
+      title: "My biggest open-source project",
+      name: "Unmask",
+      link: "https://github.com/rajihawa/unmask",
+      img: "unmask",
+      desc:
+        "(Open Source) Self hosted auth2 server and user management platform, focused on real-time and tracking user activities",
+    },
+  ],
   languages: [
     {
       name: "javascript",
