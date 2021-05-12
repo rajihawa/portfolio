@@ -2,7 +2,7 @@
   <Main>
     <div class="p-2 sm:p-5">
       <h1 class="text-white text-center text-5xl mb-20 md:mb-10 mt-5">
-        Some the projects I've been a part of
+        Projects I've been a part of
       </h1>
       <div class="flex justify-center md:justify-around items-center flex-wrap">
         <div
