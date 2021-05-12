@@ -24,7 +24,8 @@
         but you can send me memes :D, @raji.hawa
       </p>
       <p class="text-xl m-2">
-        Also here's a cozy pic of my doggo to bless your day, you're welcome ;)
+        Also here's a cozy pic of my doggo Ruby to bless your day, you're
+        welcome ;)
         <img class="h-96 mx-auto" src="../assets/ruby.jpg" />
       </p>
     </div>
